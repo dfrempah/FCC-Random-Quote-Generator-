@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Random Quote Generator</title>
+    <link href="./styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">  
+
+    
+</head>
+<body id="Colored">  
+    <div class="main" id="quote-box">
+            <div class="headerBox">
+                    <h1>Random Quote Generator</h1>
+            </div>
+            <div id="quote-sign">
+                    <span><i class="fa fa-quote-left" aria-hidden="true"></i></span>
+                </div>
+            <div class="quoteCard">
+                <p class="quoteItem" id="text"></p>
+                <p class="quoteauthor" id="author"></p>
+
+                <div class="buttons">
+                        <button onclick="getQuoteandColor()" id="new-quote">New Quote</button>
+                        <a id="tweet-quote"><span><i class="fa fa-twitter" aria-hidden="true"></i></span></a>
+        
+                    </div>
+            </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
